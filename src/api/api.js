@@ -2,7 +2,7 @@ import axios from 'axios';
 
 //建立 API 的 Axios 實例
 const movie = axios.create({
-    baseURL: 'https://movieweb-backend-bj2o.onrender.com', //後端端口 
+    baseURL: 'https://movieweb-backend-bj2o.onrender.com/movie', //後端端口 
     withCredentials: true, //跨域請求 測試
     headers: {
         'Content-Type': 'application/json',
