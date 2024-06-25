@@ -6,22 +6,22 @@
 
     <ul class="nav  shownavbutton2">
         <li class="nav-item">
-            <router-link to="/" class="nav-link text-white">首頁</router-link>
+            <router-link to="/movieweb-frontend/" class="nav-link text-white">首頁</router-link>
         </li>
         <li class="nav-item">
-            <router-link to="/nowplaying"  class="nav-link text-white">上映電影</router-link>
+            <router-link to="/movieweb-frontend/nowplaying"  class="nav-link text-white">上映電影</router-link>
         </li>
         <li class="nav-item">
-            <router-link to="/popular" class="nav-link text-white">熱門電影</router-link>
+            <router-link to="/movieweb-frontend/popular" class="nav-link text-white">熱門電影</router-link>
         </li>
         <li class="nav-item">
-            <router-link to="/upcoming" class="nav-link text-white">即將上映電影</router-link>
+            <router-link to="/movieweb-frontend/upcoming" class="nav-link text-white">即將上映電影</router-link>
         </li>
         <li class="nav-item">
-            <router-link to="/genre" class="nav-link text-white">電影分類</router-link>
+            <router-link to="/movieweb-frontend/genre" class="nav-link text-white">電影分類</router-link>
         </li>
         <li class="nav-item">
-            <router-link to="/watchlist" class="nav-link text-white">(會員)待觀看電影</router-link>
+            <router-link to="/movieweb-frontend/watchlist" class="nav-link text-white">(會員)待觀看電影</router-link>
         </li>
         <li class="nav-item">
             <logout class="nav-link text-white"/>
