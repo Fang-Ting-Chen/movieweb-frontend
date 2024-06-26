@@ -38,7 +38,7 @@ const router = createRouter({
     ]
 });
 
-router.resolve({ name: 'Login' }).href;
+//router.resolve({ name: 'Login' }).href;
 
 const app = createApp(App); //創建 vue 的實例
 
