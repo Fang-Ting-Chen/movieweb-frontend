@@ -6,7 +6,7 @@ import ViteImages from 'vite-plugin-vue-images';
 
 
 export default defineConfig({
-  
+  base: '/movieweb-frontend/',
   plugins: [
     vue(),
     ViteImages({
