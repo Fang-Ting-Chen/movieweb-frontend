@@ -15,7 +15,7 @@
 
 <script>
 import logoImage from '../assets/images/logo.jpg';
-import tmdbLogo from '../assets/images/tmdb.svg'
+import tmdbLogo from '../assets/images/tmdblogo.jpg'
 
 export default {
     setup() {
