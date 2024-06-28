@@ -23,7 +23,6 @@ import Footer from './components/Footer.vue'
 //創建 vue-router 的實例
 const router = createRouter({
     history: createWebHistory('/movieweb-frontend/'),
-    //base: '/movieweb-frontend/',
     //配置路由規則
     routes: [
         //path: 用於自訂 url 末尾  ，component: 用於設定要打開的元件
@@ -38,7 +37,6 @@ const router = createRouter({
     ]
 });
 
-//router.resolve({ name: 'Login' }).href;
 
 const app = createApp(App); //創建 vue 的實例
 

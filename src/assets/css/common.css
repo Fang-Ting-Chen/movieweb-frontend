@@ -70,9 +70,12 @@
 }
 .logoimg{
     width: 200px;
+    height: 108px;
+}
+.tmdblogo{
+    width: 50px;
     height: auto;
 }
-
 
 /*custom*/
 .logindiv{
