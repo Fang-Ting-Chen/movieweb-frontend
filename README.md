@@ -4,7 +4,7 @@
 
 ## Demo
 
-網站入口: https://fang-ting-chen.github.io/movieweb-frontend/
+網站入口: https://fang-ting-chen.github.io/movieweb-frontend/  
 後端專案: https://github.com/Fang-Ting-Chen/movieweb-backend
 
 ## 主要技術
