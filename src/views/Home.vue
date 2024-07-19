@@ -17,7 +17,7 @@
     <div class="homeBG3 ">
         <p class="text-center pt-5 text-blue display-6">熱門電影</p>      
             <div class="row flex-nowrap overflow-auto">
-                <div v-for="movie in popularMovies.movies" :key="movie.id" class="col-xl-2 col-md-3 col-4">
+                <div v-for="movie in popularMovies.movies" :key="movie.id" class="col-xl-2 col-md-3 col-sm-4 col-6">
                     <div  class="text-white card m-3 p-0 border-0 " style="width:150px">               
                         <img :src="getImageUrl(movie.poster_path)" alt="電影海報" class="card-img-top">
                         <div class="card-body bg-header">
